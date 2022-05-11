@@ -33,8 +33,13 @@ nav {
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
 }
 
 @keyframes bottom {
